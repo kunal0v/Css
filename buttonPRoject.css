@@ -1,0 +1,26 @@
+.b1{
+    border-color: white;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    height: 20px;
+    width: 75px;
+    padding: 15px,15px,15px,15px;
+}
+.b2{
+    color: white;
+    height: 20px;
+    width: 75px;
+    padding: 15px,15px,15px,15px;
+    background-image: linear-gradient(45deg,#6b31c9e3,#C65BCF);
+    box-shadow:1px 1px 2px 0px rgb(168, 168, 168);
+    border: none;
+}
+.b3{
+    border-block-color: solid linear-gradient(45deg,rgb(141, 161, 31),rgb(222, 60, 16));
+    height: 20px;
+    width: 75px;
+    padding: 15px,15px,15px,15px;
+    border-radius: 5%;
+    border-width:10px;
+}

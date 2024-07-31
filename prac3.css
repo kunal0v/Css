@@ -1,0 +1,20 @@
+a{
+    color: red;
+}
+#box{
+    background-color: blue;
+    length: 600px;
+    width:700px;
+    color: yellow;
+    text-align: center;
+}
+#oxo{
+text-decoration: overline;
+font-family: cursive;
+text-transform: uppercase;
+}
+h2{
+    font-weight: 900;
+    font-size: 10px;
+    line-height: 2px;
+}

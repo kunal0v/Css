@@ -1,0 +1,17 @@
+.parent::first-line{
+    color: yello;
+}
+::placeholder{
+    color: crimson;
+    background-color: yellow;
+
+}
+a:hover{
+    background-color: green;
+    color: black;
+    border: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}

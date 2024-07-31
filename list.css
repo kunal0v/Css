@@ -1,0 +1,12 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ol li{
+    list-style-image:url(download.jpeg) ;
+    height:auto;
+    width:auto;
+    margin: 100px;
+    padding: 10px;
+}

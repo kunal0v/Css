@@ -1,0 +1,13 @@
+.parent{
+    background-color: sky rgba(43, 255, 0, 0.909);
+    height: 100%;
+    width: 100%;
+
+}
+
+#child1{
+    display: inline;
+}
+#child2{
+    display: none;
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.up{
+    height: 20vh;
+    width: 100vw;
+    background-color: rgba(61, 202, 61, 0.761);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    height: 10vh;
+    width: 100vw;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
+li{
+    list-style: none;
+
+}
+ul{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li:active{
+    color:red;
+}
+

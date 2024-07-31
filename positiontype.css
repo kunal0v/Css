@@ -1,0 +1,35 @@
+.parent{
+    background-color: pink;
+    height: 100vh;
+    width: 40vw;
+    position: relative;
+}
+.c1{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 250px;
+    width: 250px;
+    background-color: green;
+}
+.c2{
+
+    height: 250px;
+    width: 250px;
+    background-color: aqua;
+}
+.q{
+    position: sticky;
+    bottom: 0;
+}
+h1{
+    position: fixed;
+    bottom: 0;
+
+}
+.c3{
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+}
+

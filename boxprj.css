@@ -1,0 +1,28 @@
+.parent{
+    display: flex;
+    background-color: rgba(236, 174, 255, 0.946);
+    height: 80vh;
+    width: 100vw;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.s1{
+
+    height:500px;
+    width: 500px;
+    border-radius: 5%;
+
+}
+.s2{
+    padding-top: 100px;
+    background-color:transparent ;
+    height: 500px;
+    width: 500px;
+    border-radius: 5%;
+    
+
+}
+button{
+    margin-left:250px ;
+}

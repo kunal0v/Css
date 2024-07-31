@@ -1,0 +1,24 @@
+.parent{
+    background-color: rgba(71, 58, 32, 0.776);
+    height: 50vh;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px ;
+    transform: rotateY(30deg);
+    transform-style: preserve-3d;
+    /* transform-origin: bottom; */
+    
+}
+.child,img{
+
+    height: 50vh;
+    width: 50vw;
+    transform-origin:bottom;
+    transform: rotatex(60deg);
+}
+.child:hover{
+    background-color: yellow;
+    transition:transform,1s linear 1s;
+}

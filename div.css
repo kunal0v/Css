@@ -1,0 +1,15 @@
+.parent{
+    height:100vh;
+    width:100vw;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+.s{
+    height: 250px;
+    width: 250px;
+    
+    background-color: yellow;
+}

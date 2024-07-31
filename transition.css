@@ -1,0 +1,26 @@
+button{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    transition: width, 1s ease-in-out 1ms;
+    margin-left: 65px;
+    margin-top: 25px;
+}
+button:hover{
+    transform: rotate(360deg);
+    border: none;
+    /* border-radius: 50%; */
+    background-color: rgba(103, 103, 211, 0.76);
+}
+.par{
+    background-color: beige;
+    height: 250px;
+    width: 250px;
+}
+.par:hover{
+    border-radius: 50%;
+    transition-duration: 1s;
+    transition-delay: 1ms;
+    transition-timing-function: linear;
+    background-color: greenyellow;
+}

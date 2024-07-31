@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: black;
+}
+img{
+    position:absolute;
+    right: 40%;
+    bottom: 20%;
+    height: 400px; 
+    width: 400px;
+    animation: hello 2s linear 1s infinite alternate-reverse
+}
+.coco{
+    display: flex;
+    align-content:center;
+    justify-content: center;
+    text-align: center;
+    padding: 15%;
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+
+}
+
+
+@keyframes hello{
+    0%{
+        transform: 0;
+    }
+    25%{
+        transform: translateY(1500px);
+    }
+    50%{
+        transform: translateX(100px)
+    }
+    90%{
+        transform: translateY(100px);
+    }
+    100%{
+        transform: translateX(100px);
+        opacity: 0%;
+    }
+}

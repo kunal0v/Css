@@ -1,0 +1,10 @@
+.box{
+    box-shadow: 2px 2px 20px 0px rgb(218, 38, 38);
+    height: 50vh;
+    width: 90vw;
+    background-color: rgba(26, 255, 0, 0.826);
+}
+marquee{
+    scrollamount: 10
+
+}

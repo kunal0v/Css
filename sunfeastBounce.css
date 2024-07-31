@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.parent{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(223, 207, 34);
+    transition: 4s;
+    animation:bounce 5s linear 1s infinite;
+    animation: 3px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+@keyframes bounce{
+    0%{
+        transform: translate(0);
+    }
+    25%{
+        transform: translateZ(250px);
+    }
+    50%{
+        transform: translateX(500px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+
+.parent1{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(187, 77, 41, 0.993);
+    transition: 4s;
+    animation:bounce1 5s linear 1s infinite;
+    animation: 3px;
+    display:flex;
+    justify-items: space-between;
+    align-items: center;
+    position: absolute;
+    right: 0%;
+}  
+

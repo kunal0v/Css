@@ -1,0 +1,27 @@
+.container{
+    background-color: rgba(77, 77, 65, 0.903);
+    height: 650px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    background-color: purple;
+    width: 330px;
+    height: 330px;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: 15px 15px 10px 20px white,-15px -15px 10px 20px white}
+img{
+    padding: 24px ;
+    box-shadow: inset 3px 4px 2px yellow,3px 4px 2px yellow;
+    border-radius: 50%;
+}
+.head1{
+    text-shadow: 0px 10px 15px white;
+}
+p{
+    text-shadow: yellow 3px 5px 4px;
+}

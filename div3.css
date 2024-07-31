@@ -1,0 +1,40 @@
+.parent{
+width: 60vw;
+height: 100vh;
+border: 2px solid black;
+position: relative;
+    
+}
+.c1{
+    height: 33vh;
+    width: 20vw;
+    background-color: greenyellow;
+    position: absolute;
+    bottom: 1%;
+    right: 3%;
+    overflow: scroll;
+    
+
+}
+.c2{
+    height: 33vh;
+    width: 20vw;
+    background-color: red;
+
+}
+.c3{
+    height: 33vh;
+    width: 20vw;
+    background-color: blue;
+    position:absolute;
+    right: 35%;
+
+}
+h1::before{
+    content: "Hello world!";
+}
+h1::first-line{
+    color: blue;
+    font: width 900px;
+}
+

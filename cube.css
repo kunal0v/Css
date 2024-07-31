@@ -1,0 +1,14 @@
+.parent{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 200px;
+    width: 200px;
+    position:relative;
+    transform-style: preserve-3d;
+}
+.face{
+    position: absolute;
+    background-color: white;
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+}
+section{
+    background-image:linear-gradient(to right,rgba(201, 35, 35, 0.573),rgba(209, 209, 8, 0.719)), url(pexels-photo-3408744.jpeg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}
+.c1{
+    background-image:linear-gradient(90deg,rgba(0, 0, 0, 0.356),rgba(255, 255, 255, 0.799)),url(watermelon-5877895_1920.png);
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+marquee{
+    background-color: lime;
+    height: 40px;
+    width: 100%;
+}
+.d1{
+    background-image:linear-gradient(to right,rgba(120, 116, 85, 0.632),rgba(37, 149, 234, 0.591)), url(pexels-pixabay-33109\ \(1\).jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+}

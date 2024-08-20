@@ -31,7 +31,7 @@ input{
     justify-items: space-between;
     align-items:center;
 }
-button{
+#but{
     background-color: rgba(242, 74, 13, 0.655);
     color: rgba(245, 245, 245, 0.929);
     width: 200px;
@@ -94,4 +94,30 @@ ul{
     align-items: center;
     height: 100vh;
     width: auto;
+    background-color: #F8FAFB;
+}
+#small{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: 400px;
+    
+}
+.p32{
+    height: 100vh;
+    width: auto;
+}
+
+.page3{
+    display:flex;
+    justify-items: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.p33{
+    border: 2px solid black;
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    padding: 30px;
 }

@@ -6,6 +6,7 @@ gsap.to(".parent",{
     scale:0.1,
     backgroundColor:"green",
 })
+
 gsap.to(".parent1",{
     x:800,
     duration:1,
@@ -14,6 +15,7 @@ gsap.to(".parent1",{
     scale:0.1,
     backgroundColor:"green",
 })
+
 gsap.to(".parent2",{
     x:800,
     duration:1,
